@@ -1,0 +1,9 @@
+mkdir quick-push
+cd quick-push
+git init
+echo "# Quick Push Test" >> README.md
+git add README.md
+git commit -m "Initial commit"
+https://github.com/Sergeyg78/quick-push,git
+git branch -M main
+git push -u origin main
